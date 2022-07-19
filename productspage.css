@@ -41,3 +41,16 @@ a{
     /* border: solid greenyellow; */
     padding: 30px;
 }
+.images2 img{
+    
+    height: 100px;
+    width: 200px;
+}
+.images2{
+    /* border: rebeccapurple; */
+    /* background-color: red; */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
