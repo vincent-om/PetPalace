@@ -1,3 +1,8 @@
+body{
+    width: 70%;
+    margin: auto;
+    /* border: solid black; */
+}
 li{
     list-style-type: none;
 }
@@ -12,16 +17,27 @@ li{
     justify-content: space-around;
     padding: 30px;
     /* border: solid red; */
+    
 }
 .categories img{
     height: 350px;
     width: auto;
     padding: 10px;
     padding-right: 20px;
-    
 }
 
 a{
     color: black;
     text-decoration: none;
+}
+.images img{
+    height: 150px;
+    width: auto;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    /* border: solid greenyellow; */
+    padding: 30px;
 }
