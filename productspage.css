@@ -38,27 +38,27 @@ a{
     display: flex;
     justify-content: space-around;
     width: 80%;
-    /* border: solid greenyellow; */
+    border: solid red; 
     padding: 30px;
 }
 .images2 img{
-    
     height: 100px;
     width: 200px;
 }
 .images2{
-    /* border: rebeccapurple; */
-    /* background-color: red; */
     padding: 30px;
     display: flex;
     justify-content: space-between;
     width: 80%;
+    border: solid red;
 }
 .foods{
     display: flex;
     justify-content: space-around;   
     padding: 30px;
     width: 80%;
+    /* border-radius: 10px; */
+    border: solid red;
 }
 .foods img{
     height: 150px;
@@ -67,4 +67,20 @@ a{
 #blue{
     background-color: #b8cfec;
     color: #b8cfec;
+}
+#pink{
+    background-color: #f6dae4;
+    color: #f6dae4;
+}
+.accesories{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border: solid red;
+}
+.accesories img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
 }
