@@ -1,0 +1,99 @@
+:root {
+    --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --dark: rgba(0, 0, 0, 0.95);
+    --light: rgba(255, 255, 255, 0.95);
+    --font-weight-small: 200;
+    --font-weight-median: 600;
+    --font-weight-heavy: 900;
+    --font-size-small: 10px;
+    --font-size-median: 12px;
+    --font-size-large: 30px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Font size and weight  */
+.font-weight-small {font-weight: var(--font-weight-small);}
+.font-weight-median {font-weight: var(--font-weight-median)}
+.font-weight-heavy {font-weight: var(--font-weight-heavy);}
+
+.font-size-small {font-size: var(--font-size-small);}
+.font-size-median {font-size: var(--font-size-median);}
+.font-size-large {font-size: var(--font-size-large);}
+
+.font-family-indie-flower {font-family: 'Indie Flower', cursive;}
+
+/* Display properties  */
+.display-none {display: none;}
+
+.d-flex {display: flex;}
+.flex-direction-row {flex-direction: row;}
+.flex-direction-col {flex-direction: column;}
+.flex-wrap-wrap {flex-wrap: wrap;}
+.justify-content-center {justify-content: center;}
+.justify-content-space-between {justify-content: space-between;}
+.justify-content-space-around {justify-content: space-around;}
+.justify-content-end {justify-content: flex-end;}
+.align-items-center {align-items: center;}
+.align-self-center {align-self: center;}
+.gap-1em {gap: 1em;}
+
+.d-grid {display: grid;}
+.place-items-center {place-items: center;}
+
+
+.container {
+    width: min(100% - 4rem, 90rem);
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f6dae4 ;
+    padding: 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+section {
+    width: calc(10/12);
+    margin: auto;
+}
+
+
+.main-header-text {
+    font-family: var(--primary-font-family);
+    width: 450px;
+
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.main-header-text .title {
+    font-size: 3em;
+}
+
+.main-header-text .paragraph {
+    font-size: 1.3em;
+}
+
+#section-1 {
+    position: relative;
+    width: min(100vw, 170vh);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15vh;
+}
