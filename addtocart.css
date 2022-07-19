@@ -3,6 +3,17 @@
 
 nav{
     display:flex;
+    margin:auto;
+    padding: 30px;
+    background-color: #1de9b6;
     flex-direction: row;
+    position: relative;
     width: 100vw;
+    justify-content: space-around;
 }
+
+.search-bar{
+    background-color: #b32626;
+    }
+
+
