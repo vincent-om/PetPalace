@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 
+    --primary-color: #bbcfec;
+    --primary-color-2: #f6dae4;
+
     --dark: rgba(0, 0, 0, 0.95);
     --light: rgba(255, 255, 255, 0.95);
     --font-weight-small: 200;
@@ -50,12 +53,6 @@ body {
 .d-grid {display: grid;}
 .place-items-center {place-items: center;}
 
-
-.container {
-    width: min(100% - 4rem, 90rem);
-    margin: auto;
-}
-
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -67,11 +64,12 @@ li{
     list-style-type: none;
 }
 
-section {
-    width: calc(10/12);
+.container {
     margin: auto;
 }
 
+
+/* STYLE ELEMENTS IN THE SECTION 1 OF THE HOMEPAGE  */
 
 .main-header-text {
     font-family: var(--primary-font-family);
@@ -96,4 +94,52 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -15vh;
+}
+
+/* STYLE ELEMENTS IN THE SECTION 2 OF THE HOMEPAGE  */
+.card {
+    width: 20vw;
+    height: 30vw;
+    min-width: 12em;
+    min-height: 18em;
+    margin: 1.2vw;
+    padding: 1.2vw;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    height: 18vw;
+    width: 18vw;
+    min-height: 10.8em;
+    min-width: 10.8em;
+}
+
+.decoration-line {
+    height: 28em;
+    width: 3.2em;
+    margin-right: 1.2em;
+    background-color: var(--primary-color);
+}
+
+.popular-products-container {
+    border-right: 0.2em solid blue;
+    border-bottom: 0.2em solid blue;
+}
+
+.information {
+    width: 15em;
+}
+
+.information {
+    padding-top: 3.1em;
+    margin-left: 3.1em;
+    width: 30em;
+    height: 50em;
+    border-left: 0.2em solid blue;
+    border-top: 0.2em solid blue;
+    background-color: red;
 }
