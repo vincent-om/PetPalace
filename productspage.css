@@ -54,3 +54,17 @@ a{
     justify-content: space-between;
     width: 80%;
 }
+.foods{
+    display: flex;
+    justify-content: space-around;   
+    padding: 30px;
+    width: 80%;
+}
+.foods img{
+    height: 150px;
+    width: auto;
+}
+#blue{
+    background-color: #b8cfec;
+    color: #b8cfec;
+}
