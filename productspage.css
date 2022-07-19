@@ -8,5 +8,18 @@ li{
     padding: 40px;
 }
 .categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border: solid red;
+}
+.categories img{
+    height: 350px;
+    width: auto;
+    padding: 10px;
     
 }
+
+/* a{
+    text-decoration: none;
+} */
