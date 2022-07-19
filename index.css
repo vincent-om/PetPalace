@@ -68,6 +68,8 @@ body {
     border:none;
     outline: none;
     margin: 1em 0;
+    width: 10em;
+    text-align: center;
 }
 
 
@@ -110,7 +112,7 @@ li{
 
 #section-1 {
     position: relative;
-    width: min(100vw, 170vh);
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -15vh;
@@ -191,7 +193,7 @@ li{
     font-size: 1.5em;
 }
 
-#side-bar-text {
+#side-bar-text{
     position: relative;
     height: 50vw;
     width: 18vw;
@@ -205,13 +207,16 @@ li{
 
 }
 
-#side-bar-text h2 {
-    padding-top: 5em;
+#side-bar-text > div {
+    padding-top: 3em;
     padding-left: 2em;
 }
 
+#side-bar-text h2 {
+    padding-top: 2em;
+}
+
 #side-bar-text p {
-    padding-left: 2em;
     margin-top: 0.8em;
 }
 
