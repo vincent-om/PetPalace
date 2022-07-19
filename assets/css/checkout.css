@@ -1,0 +1,14 @@
+    background-image: url(/assets/images/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* mix-blend-mode: soft-light; */
+    color: #FA8686;
+    backdrop-filter: blur;
+    font-size: 30px;
+    line-height: 36px;
+    height: 480px;
+    width: 776px;
+}
