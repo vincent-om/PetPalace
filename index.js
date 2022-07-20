@@ -14,6 +14,7 @@ let addToCart = function(item){
 
     // console.log(item, itemPrice);
 
+    
     let inCart = JSON.parse(localStorage.getItem('inCart'))
 
     console.log(localStorage.getItem('inCart'))
