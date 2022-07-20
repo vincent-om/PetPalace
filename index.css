@@ -1,4 +1,5 @@
 :root {
+    /* font-size: 0.5em; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,6 +11,7 @@
 
     --primary-color: #bbcfec;
     --primary-color-2: #f6dae4;
+    --primary-color-3: #bbcfe1 /*like primary color but a little darker*/
 
     --dark: rgba(0, 0, 0, 0.95);
     --light: rgba(255, 255, 255, 0.95);
@@ -74,14 +76,16 @@ body {
 
 
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
     display: flex;
     justify-content: space-around;
     background-color:#f6dae4 ;
     padding: 40px;
-}
 
-li{
-    list-style-type: none;
+    z-index: 10;
 }
 
 .container {
@@ -150,8 +154,9 @@ li{
     width: 3vw;
     min-width: 2em;
     min-height: 18em;
+}
 
-
+#decoration-line-1 {
     margin-right: 1.2vw;
     background-color: var(--primary-color);
 }
@@ -221,7 +226,7 @@ li{
 }
 
 #side-bar-text p, #side-bar-text h2 {
-    font-size: 25px;
+    font-size: 1.6em;
 }
 
 
@@ -235,15 +240,114 @@ li{
     text-align: right;
 }
 
+
+#circular-image-and-some-text {
+    position: relative;
+    width: 40vw;
+    z-index: 3;
+}
+
 #section-3 img {
-    width: 40%;
+    width: 100%;
 }
 
-#section-3 h2 {
-    text-align: right;
+#section-3 .text-and-info {
+    position: relative;
+    right: 5vw;
+
+
+    width: 60vw;
 }
 
-#section-3-text {
+
+#section-3 .subtitle {
+    position: absolute;
+    right: 0;
+
+    margin-top: 2rem;
+
+    font-size: 2.5rem;
     text-align: right;
-    background-color: red;
+
+    width: 25vw;
+    /* min-width: 310px; */
+}
+
+#section-3 .text {
+    position: absolute;
+    right: 1vw;
+
+    width: 35vw;
+    /* min-width: 500px; */
+
+    font-size: 1.5rem;
+
+    margin-top: 10rem;
+}
+
+#section-3 #circular-image-and-some-text::after {
+    content: 'We are the leading Pet Products Store In kenya';
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    top: 40%;
+    left: 50%;
+
+    color: var(--primary-color-2);
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding: 0 6rem;
+    font-weight: 900;
+    z-index: 1;
+}
+
+#section-3 #circular-image-and-some-text::before {
+    content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, provident totam? Minus repudiandae cumque a ex. Perferendis, excepturi sequi! Pariatur aliquam sed et eaque dolore consequuntur eligendi impedit suscipit quam, voluptate nostrum quis aliquid qui natus minus beatae, sequi eum, deserunt exercitationem ea neque in. Vitae quaerat sequi exercitationem rem.';
+    position: absolute;
+    box-sizing: border-box;
+    top: calc(40% + 5rem);
+    left: 50%;
+
+    font-size: 1.5rem;
+    width: 100%;
+
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 1em;
+    border: 0.2em solid white;
+    color: white;
+    z-index: 1;
+}
+
+#section-3 #item-list {
+    position: absolute;
+    top: 17vw;
+    right: 0;
+}
+
+#section-3-content {
+    position: relative;
+}
+
+#decoration-line-2 {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    float: right;
+    background-color: var(--primary-color-2);
+}
+
+#section-3 #list-items {
+    box-sizing: border-box;
+    font-weight: 900;
+    margin-right: 7rem;
+}
+
+#section-3 #list-items li {
+    font-size: 2rem;
+
+    width: 25vw;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0.8em 0;
 }
