@@ -351,3 +351,74 @@ body {
     color: rgba(0, 0, 0, 0.6);
     margin: 0.8em 0;
 }
+
+
+/* STYLE SECTION 4 OF THE PAGE  */
+
+#section-4 {
+    margin-top: 10rem;
+}
+
+#section-4 .customer-feedback {
+    position: relative;
+    width: 25vw;
+    height: 26vw;
+    min-width: 15rem;
+    min-height: 22.5rem;
+    margin: 0 1vw;
+    padding: 0.8vw;   
+
+    border: 0.1em solid var(--primary-color);
+    
+    display: grid;
+    place-items: center;
+}
+
+#section-4 .customer-feedback .customer-feedback-content::before,
+#section-4 .customer-feedback .customer-feedback-content::after {
+    content: '"';
+    position: absolute;
+    font-size: 7rem;
+}
+
+#section-4 .customer-feedback .customer-feedback-content::before {
+    top: 0;
+    left: 0;
+}
+
+#section-4 .customer-feedback .customer-feedback-content::after {
+    bottom: 0;
+    right: 0;
+}
+
+#section-4 .customer-feedback .customer-feedback-content{
+    width: 20vw;
+    height: 20vw;
+    min-width: 12rem;
+    min-height: 18rem;
+
+    display: grid;
+    place-items: center;
+
+    font-size: 2em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.customer-feedback-main-text {
+    margin-bottom: 5rem;
+    font-size: 4em;
+    text-align: center;
+}
+
+#decoration-line-3 {
+    width: 25vw;
+    height: 5vw;
+    min-height: 2em;
+    min-width: 18em;
+
+    margin-top: 4rem;
+
+    background-color: var(--primary-color);
+}
