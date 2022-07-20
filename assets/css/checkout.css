@@ -31,23 +31,8 @@ nav{
     left: 20%;
     top: 115px ;
     position: relative;
-    /* object-fit: fill;
-    text-align: center;
-    margin-bottom: 0.5vh;
-    mix-blend-mode: soft-light;
-    color: #F6DAE4;
-    backdrop-filter: blur;
-    font-size: 30px;
-    line-height: 36px;
-    height: 957px;
-    width: 988px; 
-    top: 0px;
-    position: relative;
-    left: 182px;
-    
-width: 988px;
-height: 957px;
-top: 0; */
+
+
 
 } 
 
@@ -60,6 +45,7 @@ table, th, td {
     left: 150px;
     margin-bottom: 2vh;
     backdrop-filter: blur(4px);
+    
 }
 
 .checkout h2 {
@@ -232,18 +218,29 @@ footer > p{
 .petpalace_f h2{
     text-decoration: none;
 }
-.email h2{
-    text-decoration: none;
-}
-.email{
-    text-align: center;
-    font-size: 150%;
-    border-bottom: 5px solid white;
-    padding-bottom: 5%;
-}
+
 .petpalace_f a{
     padding: 7px;
     font-size: 200%;
-
 }
+/* Screens For Phones */
+@media only screen and (max-width: 768px) {
+
+.checkout{
+    background-image: url(/assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 60%;
+    height: 957px;
+    left: 20%;
+    top: 115px ;
+    position: relative;
+
+
+
+} 
+}
+
 
