@@ -8,9 +8,31 @@ window.onload = ()=>{
 
 let itemsOnLocalStorage = localStorage.getItem('inCart');
 
-if(itemsOnLocalStorage != null){
-    for([item, price] of Object.entries(itemsOnLocalStorage)){
-        console.log(item)
+let getItemName= function (itemID){
+    itemID = String(itemID);
+
+    switch (itemID) {
+        case 'collars':
+            return 'Collars';
+        case 'dogShampoo':
+            return 'Dog Shampoo';
+        case ''
     }
+}
+
+if(itemsOnLocalStorage != null){
+
+    itemsOnLocalStorage = JSON.parse(itemsOnLocalStorage);
+
+    for([item, price] of Object.entries(itemsOnLocalStorage)){
+        checkoutItems.innerHTML += `
+        <tr>
+            <td> <strong>${getItemName(item)}</strong> </td>
+            <td> ${price} </td>
+            <td> 1 </td>
+            <td>${price} </td>    
+        </tr>`
+    }
+    // console.log(localStorage)
 }
 }
