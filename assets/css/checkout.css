@@ -168,3 +168,12 @@ table, th, td {
 #pal{
     color: #5BACE7;
 }
+#vector {
+    position: absolute;
+    width: 961px;
+    height: 600px;
+    left: 800px;
+    top: 57vh;
+    position: absolute;
+    z-index: -1;
+}
