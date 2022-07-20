@@ -27,9 +27,14 @@ html{
     height: 480px;
     width: 776px;
 }
-.container{
-    margin-top: 60px;
-    font-size: 200%;
+table, th, td {
+    margin-top: 7%;
+    position: relative;
+    border-spacing: 30px;
+    left: 7vh;
+    align-items: center;
+    left: 150px;
+    margin-bottom: 2vh;
 }
 .container h2{
     position: relative;
