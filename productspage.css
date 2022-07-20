@@ -129,11 +129,6 @@ a{
     width: auto;
     padding: 20px;
 }
-footer{
-    background-color: #b8cfec;
-    height: 200px;
-    margin-bottom: 50px;
-}
 h1{
     font-weight: 900;
 }
@@ -148,4 +143,20 @@ p{
     color: #f6dae4;
     height: 400px;
     width: 3px;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.petpalace_f h2{
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #b8cfec;
 }
