@@ -14,6 +14,11 @@ li{
     background-color:#f6dae4 ;
     padding: 40px;
 }
+#logo{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
 .categories{
     display: flex;
     justify-content: space-around;
