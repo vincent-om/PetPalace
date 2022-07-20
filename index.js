@@ -7,20 +7,28 @@ let itemPrices = {
     'toys': 5000
 };
 
-let addToCart = function(item){
+let addToCart = function(item, itemName){
+
+    let itemsInYourCart = document.querySelector('#items-in-your-cart');
+    itemsInYourCart.innerHTML += `<li style="list-style-type: none; font-size: 2em">${itemName}</li>
+    `
 
     item = String(item);
     let itemPrice = itemPrices[item];
 
+    console.log('logging local storage', localStorage)
+
     // console.log(item, itemPrice);
 
+    let inCart = localStorage.getItem('inCart');
+    console.log('loggin in cart', inCart)
     
-    let inCart = JSON.parse(localStorage.getItem('inCart'))
-
-    console.log(localStorage.getItem('inCart'))
     
     //The cart is not empty
-    if(!inCart){
+    if(inCart != null){
+        console.log('the cart is not empty')
+        console.log(localStorage.getItem('inCart'))
+        inCart = JSON.parse(inCart)
         inCart[item] = itemPrice;
 
         localStorage.setItem('inCart', JSON.stringify(inCart))
@@ -44,32 +52,32 @@ let leash = document.querySelector('#add-leash')
 
 collars.addEventListener('click', (e)=>{
     e.preventDefault();
-    addToCart('collars')
+    addToCart('collars', 'collars')
 })
 
 dogShampoo.addEventListener('click', (e) =>{
     e.preventDefault();
-    addToCart('dogShampoo')
+    addToCart('dogShampoo', 'Dog Shampoo')
 })
 
 catFood.addEventListener('click', (e) =>{
     e.preventDefault();
-    addToCart('catFood')
+    addToCart('catFood', 'Cat Food')
 })
 
 feedingContainer.addEventListener('click', (e) =>{
     e.preventDefault();
-    addToCart('feedingContainer')
+    addToCart('feedingContainer', 'Food Container')
 })
 
 toys.addEventListener('click', (e)=>{
     e.preventDefault();
-    addToCart('toys')
+    addToCart('toys', 'Toys')
 })
 
 leash.addEventListener('click', (e) =>{
     e.preventDefault();
-    addToCart('leash')
+    addToCart('leash', 'Leash')
 })
 
 

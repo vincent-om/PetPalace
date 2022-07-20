@@ -173,6 +173,11 @@ body {
 }
 
 
+#in-your-cart {
+    margin: 4rem 2rem;
+    height: 10vw;
+}
+
 .name-and-stars {
     width: 100%;
     padding: 0.5em 0;
