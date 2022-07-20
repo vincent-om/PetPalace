@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+html{
+    position: relative;
+    width: 1440px;
+    height: 1436px;
+    background-color: #4F4F5F;
+    
+}
+.checkout{
+
+    background-image: url(/assets/images/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* mix-blend-mode: soft-light; */
+    color: #FA8686;
+    backdrop-filter: blur;
+    font-size: 30px;
+    line-height: 36px;
+    height: 480px;
+    width: 776px;
+}
+.container{
+    margin-top: 60px;
+    font-size: 200%;
+}
+.container h2{
+    position: relative;
+    width: 1440px;
+    height: 1436px;
+    background: #4F4F5F;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+    color: #AE9CF8;
+    backdrop-filter: blur(4px);
+}
+.price{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FA8686;
+    backdrop-filter: blur(4px);
+    
+}
+.dec_none{
+    text-decoration: none;
+    
+}
+.price .dec_none{
+    color: #FA8686;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mpesa{
+    height: 147px;
+    width: 358px;
+    background-color: #13F144;
+    left: 239px;
+    top: 663px;
+}
+ .mpesa h4{
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 1%;    ;
+
+}
+.mpesa p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F80707;
+    padding-top: 3%;
+}
+#black{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 1%;
+}
+.pay button{
+    background-color: #FA8686;
+    width: 215px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+.paypal{
+    background-color: #E5E5E5;
+    width: 359px;
+    height: 147px;
+    left: 0;
+    
+    
+}
+.paypal img{
+    position: relative;
+    margin: 15px 0px 0px 20px;
+    width: 88px;
+    height: 56px;
+    
+}
+.paypal p{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    margin: -20px 0px 0px 0px;
+    color: #081955;
+    /* display: inline; */
+    backdrop-filter: blur(4px);
+}
+.paypal img {
+    margin: 5px 5px 5px 5px;
+    width: 88px;
+    height: 56px;
+    display: block;
+}
+#pal{
+    color: #5BACE7;
+}
