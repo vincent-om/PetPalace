@@ -16,7 +16,14 @@ let getItemName= function (itemID){
             return 'Collars';
         case 'dogShampoo':
             return 'Dog Shampoo';
-        case ''
+        case 'catFood': 
+            return 'Cat Food';
+        case 'feedingContainer':
+            return 'Feeding Container';
+        case 'leash':
+            return 'Leash'
+        case 'toys':
+            return 'Toys'
     }
 }
 
@@ -24,7 +31,11 @@ if(itemsOnLocalStorage != null){
 
     itemsOnLocalStorage = JSON.parse(itemsOnLocalStorage);
 
+    let grandTotal = 0;
     for([item, price] of Object.entries(itemsOnLocalStorage)){
+
+        grandTotal += price;
+
         checkoutItems.innerHTML += `
         <tr>
             <td> <strong>${getItemName(item)}</strong> </td>
@@ -33,6 +44,12 @@ if(itemsOnLocalStorage != null){
             <td>${price} </td>    
         </tr>`
     }
-    // console.log(localStorage)
+
+    checkoutItems.innerHTML += `<tr>
+    <td> <strong>GRAND TOTAL</strong> </td>
+    <td></td>
+    <td></td>
+    <td>${grandTotal} </td>    
+</tr>`
 }
 }
