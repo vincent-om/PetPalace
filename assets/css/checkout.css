@@ -73,11 +73,16 @@ table, th, td {
 }
 
 .mpesa{
-    height: 147px;
+    height: 135px;
     width: 358px;
-    background-color: #13F144;
-    left: 239px;
-    top: 663px;
+    background-color: #3bce5b;
+    border-radius: 5%;
+    position: relative;
+    /* left: 5vh; */
+    text-align: center;
+    top: 1vh;
+    border-style: outset;
+
 }
  .mpesa h4{
     /* position: absolute; */
