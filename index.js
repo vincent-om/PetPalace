@@ -81,3 +81,13 @@ leash.addEventListener('click', (e) =>{
 })
 
 
+//clear local storage when the user refreshes the browser
+window.onbeforeunload = ()=>{
+    localStorage.clear();
+}
+
+
+let goToCheckout = document.querySelector('#the-checkout-button');
+goToCheckout.addEventListener('click', (e)=>{
+    open('./checkout.html')
+})
