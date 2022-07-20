@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+html{
+    position: relative;
+    width: 100%;
+    height: 1436px;
+    background-color: #4F4F5F;
+
+    
+}
+nav{
+    background-color: #F6DAE4 ;
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+}
+.checkout{
+    background-image: url(/assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 60%;
+    height: 957px;
+    left: 20%;
+    top: 115px ;
+    position: relative;
+
+
+
+} 
+
+table, th, td {
+    margin-top: 7%;
+    position: relative;
+    border-spacing: 30px;
+    left: 7vh;
+    align-items: center;
+    left: 150px;
+    margin-bottom: 2vh;
+    backdrop-filter: blur(4px);
+    
+}
+
+.checkout h2 {
+    margin-top: 3vh;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    left: 7vh;
+    top: 5vh;
+    color: #AE9CF8;
+    backdrop-filter: blur(4px);
+    font-style: italic;
+    line-height: 38px;
+    text-align: center;
+} 
+.price{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FA8686;
+    backdrop-filter: blur(4px);
+    
+}
+.dec_none{
+    text-decoration: none;
+    
+}
+.price .dec_none{
+    color: #FA8686;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.mpesa{
+    height: 135px;
+    width: 358px;
+    background-color: #3bce5b;
+    border-radius: 5%;
+    position: relative;
+    /* left: 5vh; */
+    text-align: center;
+    top: 1vh;
+    border-style: outset;
+
+}
+ .mpesa h4{
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 1%;    ;
+
+}
+.mpesa p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F80707;
+    padding-top: 3%;
+}
+#black{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 1%;
+}
+.pay button {
+    background-color: #FA8686;
+    width: 215px;
+    height: 75px;
+    color: rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    left: 48vh;
+    position: relative;
+    border-radius: 6%;
+    font-size: 24px;
+    border-color: #FA8686;
+}
+.paypal {
+    background-color: #E5E5E5;
+    position: relative;
+    left: 8vh;
+    border-radius: 5%;
+    top: 1vh;
+    border-style: outset;
+    height: 135px;
+    width: 450px;
+    text-align: center;
+    z-index: 10;
+    margin-left: 348px;
+}
+#paypalclick{
+    font-size: 12px;
+    display: inline;
+}
+.paypal img{
+    position: relative;
+    margin: 15px 0px 0px 20px;
+    width: 88px;
+    height: 56px;
+    
+}
+.paypal p{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    margin: -20px 0px 0px 0px;
+    color: #081955;
+    /* display: inline; */
+    backdrop-filter: blur(4px);
+}
+.paypal img {
+    margin: 5px 5px 5px 5px;
+    width: 88px;
+    height: 56px;
+    display: block;
+}
+#pal{
+    color: #5BACE7;
+}
+#vector {
+    position: absolute;
+    width: 961px;
+    height: 600px;
+    left: 800px;
+    top: 57vh;
+    position: absolute;
+    z-index: -1;
+}
+
+ footer {
+    margin-top: 109px;
+    background-color: #B8CFEC;
+    color: black;
+    font-size: 200%;
+    height: 26vh;
+    padding-top: 5vh;
+    line-height: 1.5;
+    }
+    
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+footer > p{
+    text-align: center;
+    font-size: 150%;
+    /* margin-top: 20px; */
+}
+.final > h4{
+    font-size: 60%;
+}
+.petpalace_f h2{
+    text-decoration: none;
+}
+
+.petpalace_f a{
+    padding: 7px;
+    font-size: 200%;
+}
+/* Screens For Phones */
+@media only screen and (max-width: 768px) {
+
+.checkout{
+    background-image: url(/assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 60%;
+    height: 957px;
+    left: 20%;
+    top: 115px ;
+    position: relative;
+
+
+
+} 
+}
+
+
