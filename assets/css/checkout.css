@@ -120,6 +120,11 @@ table, th, td {
     height: 50px;
     color: rgba(0, 0, 0, 0.25);
     font-weight: 700;
+    left: 48vh;
+    position: relative;
+    border-radius: 6%;
+    font-size: 24px;
+    border-color: #FA8686;
 }
 .paypal{
     background-color: #E5E5E5;
