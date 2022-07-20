@@ -1,5 +1,5 @@
 :root {
-    /* font-size: 0.5em; */
+    font-size: 0.8vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -79,11 +79,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 100px;
 
     display: flex;
     justify-content: space-around;
     background-color:#f6dae4 ;
-    padding: 40px;
 
     z-index: 10;
 }
@@ -101,7 +101,7 @@ body {
     width: 50%;
 
     position: absolute;
-    top: 10%;
+    top: 100px;
     left: 5%;
 }
 
@@ -422,3 +422,4 @@ body {
 
     background-color: var(--primary-color);
 }
+
