@@ -32,11 +32,10 @@ html{
     font-size: 200%;
 }
 .container h2{
-    /* position: absolute; */
-    /* width: 716px; */
-    /* height: 66px; */
-    /* top: 152px; */
-    /* left: 395px; */
+    position: relative;
+    width: 1440px;
+    height: 1436px;
+    background: #4F4F5F;
     font-family: 'Josefin Sans';
     font-style: italic;
     font-weight: 500;
