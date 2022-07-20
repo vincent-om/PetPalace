@@ -431,3 +431,22 @@ body {
     background-color: var(--primary-color);
 }
 
+
+
+/* STYLE THE FOOTER  */
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.petpalace_f h2{
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: var(--primary-color);
+}
