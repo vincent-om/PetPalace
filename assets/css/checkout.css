@@ -187,3 +187,9 @@ table, th, td {
     padding-top: 5vh;
     line-height: 1.5;
     }
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
