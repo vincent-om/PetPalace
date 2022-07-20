@@ -29,7 +29,7 @@ nav{
     width: 60%;
     height: 957px;
     left: 20%;
-    top: 115px ;
+    top: 120px ;
     position: relative;
 
 
@@ -91,7 +91,7 @@ table, th, td {
     background-color: #3bce5b;
     border-radius: 5%;
     position: relative;
-    /* left: 5vh; */
+    left: 5vh;
     text-align: center;
     top: 1vh;
     border-style: outset;
@@ -133,11 +133,12 @@ table, th, td {
     height: 75px;
     color: rgba(0, 0, 0, 0.25);
     font-weight: 700;
-    left: 48vh;
+    left: 38vh;
     position: relative;
     border-radius: 6%;
     font-size: 24px;
     border-color: #FA8686;
+    top: 4vh;
 }
 .paypal {
     background-color: #E5E5E5;
@@ -185,15 +186,15 @@ table, th, td {
     position: absolute;
     width: 961px;
     height: 600px;
-    left: 800px;
+    left: 600px;
     top: 57vh;
     position: absolute;
     z-index: -1;
 }
 
  footer {
-    margin-top: 109px;
-    background-color: #B8CFEC;
+    margin-top: 114px;
+    background-color: #bbcfec;
     color: black;
     font-size: 200%;
     height: 26vh;
@@ -207,6 +208,8 @@ table, th, td {
     justify-content: space-around;
     margin-top: 30px;
 }
+
+
 footer > p{
     text-align: center;
     font-size: 150%;
@@ -232,11 +235,11 @@ footer > p{
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    width: 60%;
+    width: 50%;
     height: 957px;
     left: 20%;
     top: 115px ;
-    position: relative;
+    position: absolute;
 
 
 
