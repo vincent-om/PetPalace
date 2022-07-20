@@ -139,6 +139,9 @@ table, th, td {
     z-index: 10;
     margin-left: 348px;
 }
+#paypalclick{
+    font-size: 12px;
+    display: inline;
 }
 .paypal img{
     position: relative;
