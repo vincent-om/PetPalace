@@ -6,27 +6,51 @@
 }
 html{
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 1436px;
     background-color: #4F4F5F;
+
     
 }
+nav{
+    background-color: #F6DAE4 ;
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+}
 .checkout{
-
     background-image: url(/assets/images/cat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 60%;
+    height: 957px;
+    left: 20%;
+    top: 115px ;
+    position: relative;
+    /* object-fit: fill;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* mix-blend-mode: soft-light; */
-    color: #FA8686;
+    margin-bottom: 0.5vh;
+    mix-blend-mode: soft-light;
+    color: #F6DAE4;
     backdrop-filter: blur;
     font-size: 30px;
     line-height: 36px;
-    height: 480px;
-    width: 776px;
-}
+    height: 957px;
+    width: 988px; 
+    top: 0px;
+    position: relative;
+    left: 182px;
+    
+width: 988px;
+height: 957px;
+top: 0; */
+
+} 
+
 table, th, td {
     margin-top: 7%;
     position: relative;
@@ -36,19 +60,20 @@ table, th, td {
     left: 150px;
     margin-bottom: 2vh;
 }
-.container h2{
+
+.checkout h2 {
+    margin-top: 3vh;
+    font-weight: 700;
+    font-size: 50px;
     position: relative;
-    width: 1440px;
-    height: 1436px;
-    background: #4F4F5F;
-    font-family: 'Josefin Sans';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 38px;
-    text-align: center;
+    left: 7vh;
+    top: 5vh;
     color: #AE9CF8;
     backdrop-filter: blur(4px);
-}
+    font-style: italic;
+    line-height: 38px;
+    text-align: center;
+} 
 .price{
     text-align: center;
     font-family: 'Inter';
@@ -70,6 +95,7 @@ table, th, td {
 .payment{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .mpesa{
@@ -114,10 +140,10 @@ table, th, td {
     color: #000000;
     padding-top: 1%;
 }
-.pay button{
+.pay button {
     background-color: #FA8686;
     width: 215px;
-    height: 50px;
+    height: 75px;
     color: rgba(0, 0, 0, 0.25);
     font-weight: 700;
     left: 48vh;
@@ -187,9 +213,36 @@ table, th, td {
     padding-top: 5vh;
     line-height: 1.5;
     }
+    
 .final{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 30px;
 }
+footer > p{
+    text-align: center;
+    font-size: 150%;
+    /* margin-top: 20px; */
+}
+.final > h4{
+    font-size: 60%;
+}
+.petpalace_f h2{
+    text-decoration: none;
+}
+.email h2{
+    text-decoration: none;
+}
+.email{
+    text-align: center;
+    font-size: 150%;
+    border-bottom: 5px solid white;
+    padding-bottom: 5%;
+}
+.petpalace_f a{
+    padding: 7px;
+    font-size: 200%;
+
+}
+
