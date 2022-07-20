@@ -59,6 +59,7 @@ table, th, td {
     align-items: center;
     left: 150px;
     margin-bottom: 2vh;
+    backdrop-filter: blur(4px);
 }
 
 .checkout h2 {
