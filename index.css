@@ -174,7 +174,10 @@ body {
 
 
 #in-your-cart {
-    margin: 4rem 2rem;
+    margin-top: 4rem;
+    margin-bottom:2em;
+    margin-left: 4em;
+    margin-right: 2em;
     height: 10vw;
 }
 
@@ -211,7 +214,7 @@ body {
     min-width: 16em;
     min-height: 18em;
 
-    top: 20vw;
+    top: 3vw;
     margin-left: 4em;
     border-top: 0.2em solid var(--primary-color);
     border-left: 0.2em solid var(--primary-color);
