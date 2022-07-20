@@ -177,3 +177,13 @@ table, th, td {
     position: absolute;
     z-index: -1;
 }
+
+ footer {
+    margin-top: 109px;
+    background-color: #B8CFEC;
+    color: black;
+    font-size: 200%;
+    height: 26vh;
+    padding-top: 5vh;
+    line-height: 1.5;
+    }
