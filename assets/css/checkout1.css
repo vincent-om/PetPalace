@@ -129,17 +129,16 @@ table, th, td {
 }
 .pay button {
     background-color: #FA8686;
-    width: 250px;
+    width: 215px;
     height: 75px;
     color: rgba(0, 0, 0, 0.25);
     font-weight: 700;
-    left: 48vh;
+    left: 58vh;
     position: relative;
     border-radius: 6%;
     font-size: 24px;
     border-color: #FA8686;
-    top: 5vh;
-    padding-left: 1vh;
+    top: 4vh;
 }
 .paypal {
     background-color: #E5E5E5;
@@ -187,13 +186,14 @@ table, th, td {
     position: absolute;
     width: 961px;
     height: 600px;
-    left: 800px;
+    left: 600px;
     top: 57vh;
+    position: absolute;
     z-index: -1;
 }
 
  footer {
-    margin-top: 114px;
+    margin-top: 120px;
     background-color: #bbcfec;
     color: black;
     font-size: 200%;
