@@ -126,13 +126,19 @@ table, th, td {
     font-size: 24px;
     border-color: #FA8686;
 }
-.paypal{
+.paypal {
     background-color: #E5E5E5;
-    width: 359px;
-    height: 147px;
-    left: 0;
-    
-    
+    position: relative;
+    left: 8vh;
+    border-radius: 5%;
+    top: 1vh;
+    border-style: outset;
+    height: 135px;
+    width: 450px;
+    text-align: center;
+    z-index: 10;
+    margin-left: 348px;
+}
 }
 .paypal img{
     position: relative;
