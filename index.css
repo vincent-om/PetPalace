@@ -179,6 +179,8 @@ body {
     margin-left: 4em;
     margin-right: 2em;
     height: 10vw;
+
+    overflow: scroll;
 }
 
 .name-and-stars {
