@@ -74,3 +74,17 @@
     margin: 20px;
     width: max-content;
 }
+
+.specifications {
+    width: 20%;
+    /* position: relative; */
+    /* left: 250vh; */
+    top: -40vh;
+    text-align: left;
+    margin: 20px;
+    padding: 2%;
+    border: 1px solid red;
+    text-align: left;
+    padding: 2%;
+    float: right;
+}
