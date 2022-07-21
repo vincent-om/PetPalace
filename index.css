@@ -1,7 +1,7 @@
 :root {
     font-size: 0.8vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 * {
@@ -12,15 +12,6 @@
     --primary-color: #bbcfec;
     --primary-color-2: #f6dae4;
     --primary-color-3: #bbcfe1 /*like primary color but a little darker*/
-
-    --dark: rgba(0, 0, 0, 0.95);
-    --light: rgba(255, 255, 255, 0.95);
-    --font-weight-small: 200;
-    --font-weight-median: 600;
-    --font-weight-heavy: 900;
-    --font-size-small: 10px;
-    --font-size-median: 12px;
-    --font-size-large: 30px;
 }
 
 body {
@@ -76,6 +67,14 @@ body {
     text-align: center;
 }
 
+.button-clicked {
+    background-color: purple;
+    color: white;
+}
+
+
+/* cpy from products branch  */
+/* starts here  */
 .navbar{
     position: fixed;
     top: 0;
@@ -85,9 +84,26 @@ body {
     display: flex;
     justify-content: space-around;
     background-color:#f6dae4 ;
+    padding: 40px;
 
     z-index: 10;
 }
+
+li{
+    list-style-type: none;
+}
+
+#logo{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* ends here  */
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
 
 .container {
     width: 90%;
@@ -111,8 +127,8 @@ body {
 }
 
 .main-header-text .paragraph {
-    font-size: 2.5em;
-    margin-top: 2.5em;
+    font-size: 2.2em;
+    margin-top: 2.2em;
 }
 
 #section-1 {
