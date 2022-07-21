@@ -87,6 +87,11 @@
     float: right;
 }
 
+.section3{
+    margin-top: 25vh;
+    position: relative;
+}
+
 .section3_images{
     width: 100%;
     display: flex;
@@ -123,7 +128,13 @@ h2{
 
 }
 
+.same_width{
+    padding: 2%;
+}
 
+.most_recently{
+    margin-top: 10vh;
+}
 
 
 
