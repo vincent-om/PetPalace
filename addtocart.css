@@ -130,6 +130,10 @@ h2{
 
 .same_width{
     padding: 2%;
+    margin-top: 2vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .most_recently{
