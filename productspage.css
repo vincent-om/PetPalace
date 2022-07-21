@@ -105,6 +105,13 @@ a{
     width: auto;
     padding: 20px;
 }
+.span{
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
+    width: 170px;
+    background-color: #b8cfec;
+}
 .other{
     display: flex;
     justify-content: space-around;
