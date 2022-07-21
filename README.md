@@ -3,13 +3,13 @@
 ## Title: PetPalace
 
 ## Authors
-+ [Brian Mwirigi] (https://github.com/MwirigiBrianBob21)
++ Brian Mwirigi
 
-+ [Lisa Lyayuga] (https://github.com/Navuru)
++ Lisa Lyayuga
 
-+ [Vincent Makhoka] (https://github.com/vincent-om)
++ Vincent Makhoka
 
-+ [Wycliffe Ndung'u] (https://github.com/flipblip)
++ Wycliffe Ndung'u
 
 
 ## Table of Content
@@ -91,3 +91,11 @@ SOFTWARE.
 [Go Back to the top](#Group Project)
 
 ## Authors Info
+
+ + [Brian Mwirigi] (https://github.com/MwirigiBrianBob21)
+
++ [Lisa Lyayuga] (https://github.com/Navuru)
+
++ [Vincent Makhoka] (https://github.com/vincent-om)
+
++ [Wycliffe Ndung'u] (https://github.com/flipblip)
