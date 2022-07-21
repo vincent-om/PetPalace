@@ -12,7 +12,7 @@ let itemPrices = {
     'dogChewToys': 500,
     'miceChewToys': 300,
     'catChewToys': 1200,
-    'hamsterWheel': 1500
+    'hamsterWheel': 1500,
 };
 
 
@@ -119,6 +119,11 @@ fishFlakes.addEventListener('click', (e)=>{
 dogChewToys.addEventListener('click', (e)=>{
     e.preventDefault();
     addToCart('dogChewToys', 'Dog Chew Toys')
+})
+
+miceChewToys.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('miceChewToys', 'Mice Chew Toys')
 })
 
 hamsterWheel.addEventListener('click', (e)=>{
