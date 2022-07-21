@@ -52,3 +52,13 @@
     border: 1px solid red;
     margin: 20px;
 }
+
+.section1{
+    width: 100%;
+}
+.section2{
+    width: 70%;
+    clear:both;
+    height: fit-content;
+    
+}
