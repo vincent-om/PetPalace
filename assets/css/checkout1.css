@@ -21,7 +21,7 @@ nav{
     top: 0px;
 }
 .checkout{
-    background-image: url(/assets/images/cat.jpg);
+    background-image: url(/assets/images/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,25 +29,10 @@ nav{
     width: 60%;
     height: 957px;
     left: 20%;
-    top: 115px ;
+    top: 120px ;
     position: relative;
-    /* object-fit: fill;
-    text-align: center;
-    margin-bottom: 0.5vh;
-    mix-blend-mode: soft-light;
-    color: #F6DAE4;
-    backdrop-filter: blur;
-    font-size: 30px;
-    line-height: 36px;
-    height: 957px;
-    width: 988px; 
-    top: 0px;
-    position: relative;
-    left: 182px;
-    
-width: 988px;
-height: 957px;
-top: 0; */
+
+
 
 } 
 
@@ -59,6 +44,8 @@ table, th, td {
     align-items: center;
     left: 150px;
     margin-bottom: 2vh;
+    backdrop-filter: blur(4px);
+    
 }
 
 .checkout h2 {
@@ -104,7 +91,7 @@ table, th, td {
     background-color: #3bce5b;
     border-radius: 5%;
     position: relative;
-    /* left: 5vh; */
+    left: 5vh;
     text-align: center;
     top: 1vh;
     border-style: outset;
@@ -146,11 +133,12 @@ table, th, td {
     height: 75px;
     color: rgba(0, 0, 0, 0.25);
     font-weight: 700;
-    left: 48vh;
+    left: 58vh;
     position: relative;
     border-radius: 6%;
     font-size: 24px;
     border-color: #FA8686;
+    top: 4vh;
 }
 .paypal {
     background-color: #E5E5E5;
@@ -198,15 +186,15 @@ table, th, td {
     position: absolute;
     width: 961px;
     height: 600px;
-    left: 800px;
+    left: 600px;
     top: 57vh;
     position: absolute;
     z-index: -1;
 }
 
  footer {
-    margin-top: 109px;
-    background-color: #B8CFEC;
+    margin-top: 120px;
+    background-color: #bbcfec;
     color: black;
     font-size: 200%;
     height: 26vh;
@@ -220,6 +208,8 @@ table, th, td {
     justify-content: space-around;
     margin-top: 30px;
 }
+
+
 footer > p{
     text-align: center;
     font-size: 150%;
@@ -231,18 +221,29 @@ footer > p{
 .petpalace_f h2{
     text-decoration: none;
 }
-.email h2{
-    text-decoration: none;
-}
-.email{
-    text-align: center;
-    font-size: 150%;
-    border-bottom: 5px solid white;
-    padding-bottom: 5%;
-}
+
 .petpalace_f a{
     padding: 7px;
     font-size: 200%;
-
 }
+/* Screens For Phones */
+@media only screen and (max-width: 768px) {
+
+.checkout{
+    background-image: url(/assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 50%;
+    height: 957px;
+    left: 20%;
+    top: 115px ;
+    position: absolute;
+
+
+
+} 
+}
+
 
