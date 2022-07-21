@@ -39,6 +39,8 @@ let getItemName= function (itemID){
     }
 }
 
+
+// Initialize items on cart that were already selected on homepage or any page in the site 
 window.onload = ()=>{
     let itemsInCart = document.querySelector('.cart')
     itemsInCart.innerHTML = `<h1>In Your Cart</h1>`
@@ -56,3 +58,67 @@ window.onload = ()=>{
         }
     }
 }
+
+
+let addToCart = function(item, itemName){
+
+    let itemsInYourCart = document.querySelector('.cart');
+    itemsInYourCart.innerHTML += `<li style="list-style-type: none; font-size: 2em">${itemName}</li>
+    `
+
+    item = String(item);
+    let itemPrice = itemPrices[item];
+
+    // console.log(item, itemPrice);
+
+    let inCart = localStorage.getItem('inCart');    
+    
+    //The cart is not empty
+    if(inCart != null){
+        inCart = JSON.parse(inCart)
+        inCart[item] = itemPrice;
+
+        localStorage.setItem('inCart', JSON.stringify(inCart))
+        console.log(localStorage)
+    }
+
+    else {
+        inCart = {};
+        inCart[item] = itemPrice
+
+        localStorage.setItem('inCart', JSON.stringify(inCart))
+    }
+}
+
+
+let hamsterFood = document.querySelector('#add-hamster-food')
+let fishFlakes = document.querySelector('#add-fish-flakes')
+let dogChewToys = document.querySelector('#add-dog-chew-toys')
+let miceChewToys = document.querySelector('#mice-chew-toys')
+let hamsterWheel = document.querySelector('#hamster-wheel')
+let dryCatFood = document.querySelector('#dry-cat-food')
+
+hamsterFood.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('hamsterFood', 'Hamster Food')
+})
+
+fishFlakes.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('fishFlakes', 'Fish Flakes')
+})
+
+dogChewToys.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('dogChewToys', 'Dog Chew Toys')
+})
+
+hamsterWheel.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('hamsterWheel', 'Hamster Wheel')
+})
+
+dryCatFood.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('dryCatFood', 'Dry Cat Food')
+})
