@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./checkout.css">
-    <title>Document</title>
+    <title>Check Out</title>
     <script src="https://kit.fontawesome.com/d95703fef6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li></li>
+            <li><a href="./index.html"><h4><i>PetPalace</i></h4></a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./productspage.html"> Back to Products</a></li>
+            <form action="">
+                <li><input type="text" placeholder="Search.."></li>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
         </ul>
     </nav>
     <div class="checkout">
@@ -20,7 +26,7 @@
                 <table>
     
                     <tr>
-                        <th><strong>Product<span>s</span></strong></th><th><p>Price/Unit</th><th><p>No. of Units</p></th><th><span>Total</span></p></th>
+                        <th><strong><u>Product</u><span>s</span></strong></th><th><p><u>Price/Unit</u></th><th><p><u>No. of Units</u></p></th><th><span><u>Total</u></span></p></th>
                     
                     </tr>
                 
@@ -47,19 +53,21 @@
                 </table>
                 
             </div>
+           <section class="section_payment">
             <div class="payment">
                 <div class="mpesa">
                     <h4>M-Pesa</h4>
-                    <p>Account No: <span>759272</span></p>
-                    <p id="black">Pay Bill No: <span>24579</span></p>
-                </div class=paypal>
+                        <p>Account No: <span>759272</span></p>
+                            <p id="black">Pay Bill No: <span>24579</span></p>
+                </div>
                 
                 <div class="paypal">
                     <img src="./assets/icons/paypal.png" alt="">
-                    <p>Pay<span id="pal">Pal</span></p>
-                     <p id="paypalclick">Click <a href="https/www.paypal.com">here</a> to pay direct from your paypal</p>
+                        <p>Pay<span id="pal">Pal</span></p>
+                            <p id="paypalclick">Click <a href="https/www.paypal.com">here</a> to pay direct from your paypal</p>
                 </div>
             </div> 
+           </section>
             
             <div class="pay">
                 <button><h3><marquee behavior="alternate" direction="right" loop="30"><em>Proceed to Pay</em></marquee></h3></button>
