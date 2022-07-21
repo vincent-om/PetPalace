@@ -1,162 +1,144 @@
 
 *{
-    padding: 0;
-    margin: 0;
-
+    font-family: sans-serif;
 }
-:root {
-    font-size: 0.8vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    width: 90%;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f6dae4 ;
+    padding: 40px;
+}
+#logo{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.section1{
+    position: relative;
+    top: 2vh;
+    width: 100%;
 }
 
-.container {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-  }
-  /* span.price {
-    float: right;
-    color: grey;
-  } */
 
-  .btn {
-    cursor: pointer;
-
-    background-color: var(--primary-color-2);
-    padding: 0.8em 2em;
-    border-radius: 0.5em;
-    color: purple;
-
-    border:none;
-    outline: none;
-    margin: 1em 0;
-    width: 10em;
-    text-align: center;
+.earwipes h3{
+    display: inline-block;
 }
-.earwipes{
-    width: 65%;
-    float: left;
-    border: 1px solid blue;
-    margin: 20px;
-    
 
+#scroll-img{
+    position: relative;
+    left: 30vw;
+    bottom: 4vh;
 }
+
+/* span {
+    position: inherit;
+    padding-left: 30em;
+    display: inline-block;
+    font-size: 1em;
+} */
+.earwipes img{
+    position: inherit;
+    width: 40%;
+    clear: right;
+}
+
+
+.spacebar {
+    top: 2em;
+}
+
+
 
 .cart{
+    position: inherit;
+    bottom: 55vh;
     width: 25%;
     float: right;
-    border: 1px solid red;
-    margin: 20px;
+    text-align: center;
+    border-top:2px solid #b8cfec;
+    margin: 0px;
+}
+.stars{
+    color: #dfdc41;
 }
 
-.section1{
-    width: 100%;
+a{
+    color: black;
+    text-decoration: none;
 }
-.section2{
-    width: 70%;
-    clear:both;
-    height: fit-content;
-    
-}
-
-.product_description{
-    width: 55%;
-    float: left;
-    margin: 20px;
-    border: 1px solid blue;
-
-}
-.product_description h1{
-    margin: 20px;
-    width: max-content;
-}
-
-.specifications {
-    width: 20%;
-    /* position: relative; */
-    /* left: 250vh; */
-    top: -40vh;
-    text-align: left;
-    margin: 20px;
-    padding: 2%;
-    border: 1px solid red;
-    text-align: left;
-    padding: 2%;
-    float: right;
-}
-
-.section3{
-    margin-top: 25vh;
-    position: relative;
-}
-
-.section3_images{
-    width: 100%;
+.frequent{
     display: flex;
-    flex-direction: row;
-    margin: 30px;
-    height: 500px;
-    
+    justify-content: space-around;   
+    padding: 30px;
+    width: 80%;
+    border-right:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
 }
-
-.section3 h2{
-    position: relative;
-    font-size: 200%;
-    clear: both;
-
+.frequent img{
+    height: 150px;
+    width: auto;
 }
-
-.btn{
-    padding: 2px;
-    background-color: #F6DAE4;
-    
-}
-.view_more_height{
-    position: relative;
-    
-}
-.most_recently{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-h2{
-    font-size: 35px;
-    line-height: 42.36px;
-
-}
-
-.same_width{
-    padding: 2%;
-    margin-top: 2vh;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.samewidth img{
-    width: 236px;
-    height: 176px;
-}
-
-.most_recently 
-{
-        margin-top: 0vh;
-        position: absolute;
-        top: 100vh;
-    }
-.section_4_images{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.spacebar{
+#blue{
+    background-color: #b8cfec;
+    color: #b8cfec;
+    height: 400px;
     width: 50px;
-    color: #B8CFEC;
-    height: auto;
-    background-color: #B8CFEC;
-    margin: 20px;
+}
+#pink{
+    background-color: #f6dae4;
+    color: #f6dae4;
+    height: 400px;
+    width: 50px;
+}
+.recent{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border-left:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.recent img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+
+h1{
+    font-weight: 900;
+}
+h2,h3{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+.vl{
+    background-color: #b8cfec;
+    color: #f6dae4;
+    height: 400px;
+    width: 3px;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.petpalace_f h2{
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #b8cfec;
 }
