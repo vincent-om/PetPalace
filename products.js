@@ -37,13 +37,15 @@ let getItemName= function (itemID){
         case 'fishFlakes':
             return 'Fish Flakes';
         case 'dogChewToys':
-            return 'Chew Toys';
+            return 'Dog Chew Toys';
         case 'miceChewToys':
             return 'Mice Chew Toys';
         case 'hamsterWheel':
             return 'Hamster Wheel';
         case 'dryCatFood':
-            return 'Dry Cat Food'
+            return 'Dry Cat Food';
+        case 'catChewToys':
+            return 'Cat Chew Toys'
     }
 }
 
@@ -106,6 +108,8 @@ let dogChewToys = document.querySelector('#add-dog-chew-toys')
 let miceChewToys = document.querySelector('#add-mice-chew-toys')
 let hamsterWheel = document.querySelector('#add-hamster-wheel')
 let dryCatFood = document.querySelector('#add-dry-cat-food')
+let dogFood = document.querySelector('#add-dog-food')
+let catChewToys = document.querySelector('#add-cat-chew-toys')
 
 hamsterFood.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -135,4 +139,14 @@ hamsterWheel.addEventListener('click', (e)=>{
 dryCatFood.addEventListener('click', (e)=>{
     e.preventDefault();
     addToCart('dryCatFood', 'Dry Cat Food')
+})
+
+dogFood.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('dogFood', 'Dog Food')
+})
+
+catChewToys.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('catChewToys', 'Cat Chew Toys')
 })
