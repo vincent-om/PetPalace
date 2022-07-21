@@ -45,3 +45,10 @@
     
 
 }
+
+.cart{
+    width: 25%;
+    float: right;
+    border: 1px solid red;
+    margin: 20px;
+}
