@@ -1,0 +1,162 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f6dae4 ;
+    padding: 40px;
+}
+#logo{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.categories img{
+    height: 350px;
+    width: auto;
+    padding: 10px;
+    padding-right: 20px;
+}
+.cart{
+    border-right:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.puppy img{
+    height: 200px;
+    width: auto;
+    padding: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.images img{
+    height: 150px;
+    width: auto;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border-right:3px solid #b8cfec;
+}
+.images2 img{
+    width: 600px;
+}
+.images2{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-right:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.foods{
+    display: flex;
+    justify-content: space-around;   
+    padding: 30px;
+    width: 80%;
+    border-right:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.foods img{
+    height: 150px;
+    width: auto;
+}
+#blue{
+    background-color: #b8cfec;
+    color: #b8cfec;
+    height: 400px;
+    width: 50px;
+}
+#pink{
+    background-color: #f6dae4;
+    color: #f6dae4;
+    height: 400px;
+    width: 50px;
+}
+.accesories{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border-left:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.accesories img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border-right:3px solid #b8cfec;
+    /* border-bottom:solid #b8cfec; */
+}
+.other2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    border-right:3px solid #b8cfec;
+    border-bottom:solid #b8cfec;
+}
+.other img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+.other2 img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+h1{
+    font-weight: 900;
+}
+h2,h3{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+.vl{
+    background-color: #b8cfec;
+    color: #f6dae4;
+    height: 400px;
+    width: 3px;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.petpalace_f h2{
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #b8cfec;
+}
