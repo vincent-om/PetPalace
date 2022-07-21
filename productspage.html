@@ -19,7 +19,7 @@
     <div class="navbar">
         <li id="logo">PetPalace</li>
         <br><br>
-        <li><a href="./productspage.html">Products</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./checkout.html">Check <output></output></a></li>
 
         <form action="">
@@ -63,12 +63,13 @@
             <input type="text" placeholder="Enter Email">
             <button type="submit">Sign In</button>
 
-            <div class="cart">
-                <h1>Cart</h1>
-                <li>Cat Shampoo 500ml</li>
-                <li>Pet Bed 1pc</li>
-                <li>Cat Chew Toys 1pc</li>
-            </div>
+                <div id="in-your-cart">
+                    <h1 style="font-size: 2em;">In Your Cart</h1>
+                    <ul id="items-in-your-cart">
+                    </ul>
+                </div>
+
+           
             <div class="puppy">
                 <li><img src="assets/pet palace images/puppy.jpg" alt=""></li>
             </div>
@@ -78,7 +79,7 @@
     <br><br>
 
     <div class="images">
-        <img src="assets/ palace images/cat bed.jpg" alt="">
+        <img src="assets/pet palace images/cat bed.jpg" alt="">
         <img src="assets/pet palace images/pet accesories.jpg" alt="">
         <img src="assets/pet palace images/dog food.jpg" alt="">
         <img src="assets/pet palace images/feeding containers 1.jpg" alt="">
@@ -104,7 +105,9 @@
             <br>
             <h3>PetPalace</h3>
             <h3>600 Kshs per Kg</h3>
+            <div class="btn" id="add-hamster-food">Add to Cart</div>
         </div>
+        
         <div>
             <li><img src="assets/pet palace images/cat food.jpg" alt=""></li>
             <li>
@@ -116,6 +119,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>850 Kshs per Kg</h3>
+            <div class="btn" id="add-dry-cat-food">Add to Cart</div>
         </div>
         <div>
             <li><img src="assets/pet palace images/fish flakes.jpg" alt=""></li>
@@ -128,6 +132,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>600 Kshs</h3>
+            <div class="btn" id="add-fish-flakes">Add to Cart</div>
         </div>
         <div>
             <li><img src="assets/pet palace images/dog food2.jpg" alt=""></li>
@@ -140,6 +145,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1000 Kshs per 10Kg </h3>
+            <div class="btn" id="add-dog-food">Add to Cart</div>
         </div>
 
     </div>
@@ -157,6 +163,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>500 Kshs</h3>
+            <div class="btn" id="add-dog-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -170,6 +177,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>300 Kshs</h3>
+            <div class="btn" id="add-mice-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -183,6 +191,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1,200 Kshs</h3>
+            <div class="btn" id="add-cat-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -196,6 +205,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1,500 Kshs</h3>
+            <div class="btn" id="add-hamster-wheel">Add to Cart</div>
         </div>
         <br>
         <div id="pink"></div>
@@ -295,7 +305,7 @@
 
             </div>
 
-            <p><strong>All rights reserved, terms and conditions applied</strong></p>
+            <p class="center"><strong>All rights reserved, terms and conditions applied</strong></p>
 
         </div>
     </footer>
