@@ -11,8 +11,7 @@ let itemPrices = {
     'dogFood': 1000,
     'dogChewToys': 500,
     'miceChewToys': 300,
-    'catChewToys': 500,
-    'miceChewToys': 300,
+    'catChewToys': 1200,
     'hamsterWheel': 1500
 };
 
@@ -37,7 +36,7 @@ let getItemName= function (itemID){
             return 'Hamster Food';
         case 'fishFlakes':
             return 'Fish Flakes';
-        case 'chewToys':
+        case 'dogChewToys':
             return 'Chew Toys';
         case 'miceChewToys':
             return 'Mice Chew Toys';
@@ -103,9 +102,9 @@ let addToCart = function(item, itemName){
 let hamsterFood = document.querySelector('#add-hamster-food')
 let fishFlakes = document.querySelector('#add-fish-flakes')
 let dogChewToys = document.querySelector('#add-dog-chew-toys')
-let miceChewToys = document.querySelector('#mice-chew-toys')
-let hamsterWheel = document.querySelector('#hamster-wheel')
-let dryCatFood = document.querySelector('#dry-cat-food')
+let miceChewToys = document.querySelector('#add-mice-chew-toys')
+let hamsterWheel = document.querySelector('#add-hamster-wheel')
+let dryCatFood = document.querySelector('#add-dry-cat-food')
 
 hamsterFood.addEventListener('click', (e)=>{
     e.preventDefault();

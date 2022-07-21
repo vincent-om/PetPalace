@@ -23,7 +23,19 @@ let getItemName= function (itemID){
         case 'leash':
             return 'Leash'
         case 'toys':
-            return 'Toys'
+        return 'Toys';
+        case 'hamsterFood':
+            return 'Hamster Food';
+        case 'fishFlakes':
+            return 'Fish Flakes';
+        case 'dogChewToys':
+            return 'Chew Toys';
+        case 'miceChewToys':
+            return 'Mice Chew Toys';
+        case 'hamsterWheel':
+            return 'Hamster Wheel';
+        case 'dryCatFood':
+            return 'Dry Cat Food'
     }
 }
 
