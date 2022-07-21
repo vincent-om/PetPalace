@@ -1,10 +1,19 @@
 let itemPrices = {
-    'collars': 7500,
-    'dogShampoo': 5000,
-    'catFood': 5000,
+    'collars': 750,
+    'dogShampoo': 500,
+    'catFood': 500,
     'feedingContainer': 2300,
-    'leash': 5000,
-    'toys': 5000
+    'leash': 500,
+    'toys': 500,
+    'hamsterFood': 600,
+    'catFood': 850,
+    'fishFlakes': 600,
+    'dogFood': 1000,
+    'dogChewToys': 500,
+    'miceChewToys': 300,
+    'catChewToys': 500,
+    'miceChewToys': 300,
+    'hamsterWheel': 1500
 };
 
 
@@ -63,7 +72,7 @@ window.onload = ()=>{
 let addToCart = function(item, itemName){
 
     let itemsInYourCart = document.querySelector('.cart');
-    itemsInYourCart.innerHTML += `<li style="list-style-type: none; font-size: 2em">${itemName}</li>
+    itemsInYourCart.innerHTML += `<li>${itemName}</li>
     `
 
     item = String(item);
