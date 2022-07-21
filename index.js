@@ -85,9 +85,3 @@ leash.addEventListener('click', (e) =>{
 window.onbeforeunload = ()=>{
     localStorage.clear();
 }
-
-
-let goToCheckout = document.querySelector('#the-checkout-button');
-goToCheckout.addEventListener('click', (e)=>{
-    open('./checkout.html')
-})
