@@ -98,6 +98,32 @@
     
 }
 
+.section3 h2{
+    position: relative;
+    font-size: 200%;
+    clear: both;
+
+}
+
+.btn{
+    padding: 2px;
+    background-color: #F6DAE4;
+    
+}
+.view_more_height{
+    position: relative;
+    
+}
+.most_recently{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+h2{
+    font-size: 35px;
+    line-height: 42.36px;
+
+}
 
 
 
