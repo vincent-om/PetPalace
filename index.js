@@ -1,3 +1,5 @@
+// PROCESS ADD TO CART 
+
 let itemPrices = {
     'collars': 7500,
     'dogShampoo': 5000,
@@ -16,18 +18,12 @@ let addToCart = function(item, itemName){
     item = String(item);
     let itemPrice = itemPrices[item];
 
-    console.log('logging local storage', localStorage)
-
     // console.log(item, itemPrice);
 
-    let inCart = localStorage.getItem('inCart');
-    console.log('loggin in cart', inCart)
-    
+    let inCart = localStorage.getItem('inCart');    
     
     //The cart is not empty
     if(inCart != null){
-        console.log('the cart is not empty')
-        console.log(localStorage.getItem('inCart'))
         inCart = JSON.parse(inCart)
         inCart[item] = itemPrice;
 
