@@ -5,8 +5,15 @@ body{
     width: 90%;
     margin: auto;
 }
+
+/* STYLE FOR NAVIGATION BAR */
+
 li{
     list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 .navbar{
     display: flex;
@@ -21,6 +28,14 @@ li{
     font-weight: bolder;
     font-family: 'Courgette';
 }
+
+/* STYLE FOR SIDE BAR */
+.puppy img{
+    height: 200px;
+    width: auto;
+    padding: 30px;
+}
+
 .categories{
     display: flex;
     justify-content: space-around;
@@ -33,19 +48,17 @@ li{
     padding: 10px;
     padding-right: 20px;
 }
-.cart{
-    border-right:3px solid #b8cfec;
-    border-bottom:solid #b8cfec;
+#in-your-cart {
+    margin-top: 4rem;
+    margin-bottom:2em;
+    margin-left: 4em;
+    margin-right: 2em;
+    height: 10vw;
+
+    overflow: scroll;
 }
-.puppy img{
-    height: 200px;
-    width: auto;
-    padding: 30px;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
+/* STYLE FOR IMAGES AT THE TOP */
+
 .images img{
     height: 150px;
     width: auto;
@@ -68,6 +81,8 @@ a{
     border-right:3px solid #b8cfec;
     border-bottom:solid #b8cfec;
 }
+
+/* STYLE FOR FOOD AND ACCESORIES SECTION */
 .foods{
     display: flex;
     justify-content: space-around;   
@@ -105,6 +120,22 @@ a{
     width: auto;
     padding: 20px;
 }
+.btn {
+    cursor: pointer;
+
+    background-color: #f6dae4;
+    padding: 0.8em 2em;
+    border-radius: 0.5em;
+    color: purple;
+
+    border:none;
+    outline: none;
+    margin: 1em 0;
+    width: 10em;
+    /* text-align: center; */
+}
+
+/* STYLE FOR SPAN ELEMEMT */
 .span{
     font-size: xx-large;
     font-weight: 900;
@@ -112,13 +143,14 @@ a{
     width: 170px;
     background-color: #b8cfec;
 }
+
+/* STYLE FOR IMAGES AT THE BOTTOM */
 .other{
     display: flex;
     justify-content: space-around;
     width: 80%;
     padding: 30px;
     border-right:3px solid #b8cfec;
-    /* border-bottom:solid #b8cfec; */
 }
 .other2{
     display: flex;
@@ -138,6 +170,8 @@ a{
     width: auto;
     padding: 20px;
 }
+
+/* STYLE FOR ALL THE HEADINGS */
 h1{
     font-weight: 900;
 }
@@ -147,12 +181,8 @@ h2,h3{
 p{
     font-weight: 400;
 }
-.vl{
-    background-color: #b8cfec;
-    color: #f6dae4;
-    height: 400px;
-    width: 3px;
-}
+
+/* STYLE FOR FOOTER ELEMENTS */
 .final{
     display: flex;
     flex-direction: row;
@@ -169,4 +199,7 @@ footer {
     height: 300px;
     background-color: #b8cfec;
     font-family: sans-serif;
+}
+.center{
+    text-align: center;
 }
