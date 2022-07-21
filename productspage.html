@@ -6,21 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products page</title>
-    <link rel="stylesheet" href="productspage.css"> 
+    <link rel="stylesheet" href="productspage.css">
     <script src="https://kit.fontawesome.com/993a0c4506.js" crossorigin="anonymous"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Mono:wght@200&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <div class="navbar">
         <li id="logo">PetPalace</li>
         <br><br>
-        <li><a href="./productspage.html">Products</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./checkout.html">Check <output></output></a></li>
 
         <form action="">
-        <li><input type="text" placeholder="Search.."></li>
-        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <li><input type="text" placeholder="Search.."></li>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
 
     </div>
@@ -28,26 +32,26 @@
     <div class="categories">
 
         <div>
-        <h1>Product Categories</h1>
-        <li>
-            <a href="">
-                <h2>Pet Foods</h2>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <h2>Pet Accesories</h2>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <h2>Pet Toys</h2>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <h2>Pet Shampoos</h2>
-            </a>
+            <h1>Product Categories</h1>
+            <li>
+                <a href="">
+                    <h2>Pet Foods</h2>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h2>Pet Accesories</h2>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h2>Pet Toys</h2>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h2>Pet Shampoos</h2>
+                </a>
         </div>
 
 
@@ -59,14 +63,16 @@
             <input type="text" placeholder="Enter Email">
             <button type="submit">Sign In</button>
 
+
             <div class="cart">
-            <h1>Cart</h1>
-            <li>Cat Shampoo 500ml</li>
-            <li>Pet Bed 1pc</li>
-            <li>Cat Chew Toys 1pc</li>
+                <h1>Cart</h1>
+                <li>Cat Shampoo 500ml</li>
+                <li>Pet Bed 1pc</li>
+                <li>Cat Chew Toys 1pc</li>
             </div>
+            
             <div class="puppy">
-            <li><img src="assets/pet palace images/puppy.jpg" alt=""></li>
+                <li><img src="assets/pet palace images/puppy.jpg" alt=""></li>
             </div>
         </div>
     </div>
@@ -74,7 +80,7 @@
     <br><br>
 
     <div class="images">
-        <img src="assets/ palace images/cat bed.jpg" alt="">
+        <img src="assets/pet palace images/cat bed.jpg" alt="">
         <img src="assets/pet palace images/pet accesories.jpg" alt="">
         <img src="assets/pet palace images/dog food.jpg" alt="">
         <img src="assets/pet palace images/feeding containers 1.jpg" alt="">
@@ -100,7 +106,9 @@
             <br>
             <h3>PetPalace</h3>
             <h3>600 Kshs per Kg</h3>
+            <div class="btn" id="add-hamster-food">Add to Cart</div>
         </div>
+        
         <div>
             <li><img src="assets/pet palace images/cat food.jpg" alt=""></li>
             <li>
@@ -112,6 +120,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>850 Kshs per Kg</h3>
+            <div class="btn" id="add-dry-cat-food">Add to Cart</div>
         </div>
         <div>
             <li><img src="assets/pet palace images/fish flakes.jpg" alt=""></li>
@@ -124,6 +133,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>600 Kshs</h3>
+            <div class="btn" id="add-fish-flakes">Add to Cart</div>
         </div>
         <div>
             <li><img src="assets/pet palace images/dog food2.jpg" alt=""></li>
@@ -136,8 +146,9 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1000 Kshs per 10Kg </h3>
+            <div class="btn" id="add-dog-food">Add to Cart</div>
         </div>
-        
+
     </div>
 
     <h1>Pet Accesories</h1>
@@ -153,6 +164,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>500 Kshs</h3>
+            <div class="btn" id="add-dog-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -166,6 +178,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>300 Kshs</h3>
+            <div class="btn" id="add-mice-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -179,6 +192,7 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1,200 Kshs</h3>
+            <div class="btn" id="add-cat-chew-toys">Add to Cart</div>
         </div>
 
         <div>
@@ -192,78 +206,88 @@
             <br>
             <h3>PetPalace</h3>
             <h3>1,500 Kshs</h3>
+            <div class="btn" id="add-hamster-wheel">Add to Cart</div>
         </div>
         <br>
         <div id="pink"></div>
     </div>
-        
-
-    <a><p class="">Contact Us</p></a>
+    <br><br>
+    <div>
+        <a>
+            <span>
+                <p class="span">Contact Us</p>
+            </span>
+        </a>
+    </div>
 
 
     <div class="other">
 
-            <div>
-                <li><img src="assets/pet palace images/cat shampoo.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/cat shampoo.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/dog shampoo.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/dog shampoo.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/dog-leash.jpeg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/dog-leash.jpeg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/dog bed 1.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/dog bed 1.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/feeding container2.jpeg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/feeding container2.jpeg" alt=""></li>
+        </div>
 
     </div>
 
     <div class="other2">
-            <div>
-                <li><img src="assets/pet palace images/811GQ1CHNwL._AC_SL1500_.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/811GQ1CHNwL._AC_SL1500_.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/chickenhat2.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/chickenhat2.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/showerr.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/showerr.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/poopscooppack.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/poopscooppack.jpg" alt=""></li>
+        </div>
 
-            <div>
-                <li><img src="assets/pet palace images/waterproof.jpg" alt=""></li>
-            </div>
+        <div>
+            <li><img src="assets/pet palace images/waterproof.jpg" alt=""></li>
+        </div>
 
-     </div>
+    </div>
 
-     <br><br>
-     <footer>
+    <br><br>
+    <footer>
         <div>
             <div class="final">
                 <div class="petpalace_f">
                     <h2>PetPalace</h2>
                     <p>Quality Pet Products</p>
-                    <marquee behavior="slide" direction="left" loop="2"><a href="#" class="fa-brands fa-facebook-square"></a><a href="#" class="fa-brands fa-twitter-square-"></a><a href="#" class="fa-brands fa-instagram-square"></a><a href="#" class="fa-brands fa-tiktok"></a></marquee>
-                                    
+                    <marquee behavior="slide" direction="left" loop="2"><a href="#"
+                            class="fa-brands fa-facebook-square"></a><a href="#"
+                            class="fa-brands fa-twitter-square-"></a><a href="#"
+                            class="fa-brands fa-instagram-square"></a><a href="#" class="fa-brands fa-tiktok"></a>
+                    </marquee>
+
                 </div>
                 <div class="company_f">
                     <h3>Company</h3>
                     <h5>About</h5>
                     <h4>Product</h4>
                     <h4>Contact Us</h4>
-                    
+
                 </div>
                 <div class="products_f">
                     <h3>Products</h3>
@@ -279,15 +303,14 @@
                     <h4>Terms of Service</h4>
                     <h4>Privacy and Policy</h4>
                 </div>
-    
+
             </div>
-            
-                    <p><strong>All rights reserved, terms and conditions applied</strong></p>
-    
+
+            <p class="center"><strong>All rights reserved, terms and conditions applied</strong></p>
+
         </div>
-     </footer>
-        
+    </footer>
 
 </body>
-
+<script src="./products.js"></script>
 </html>
