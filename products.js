@@ -6,13 +6,13 @@ let itemPrices = {
     'leash': 500,
     'toys': 500,
     'hamsterFood': 600,
-    'catFood': 850,
     'fishFlakes': 600,
     'dogFood': 1000,
     'dogChewToys': 500,
     'miceChewToys': 300,
     'catChewToys': 1200,
-    'hamsterWheel': 1500
+    'hamsterWheel': 1500,
+    'dryCatFood': 850
 };
 
 
@@ -37,13 +37,15 @@ let getItemName= function (itemID){
         case 'fishFlakes':
             return 'Fish Flakes';
         case 'dogChewToys':
-            return 'Chew Toys';
+            return 'Dog Chew Toys';
         case 'miceChewToys':
             return 'Mice Chew Toys';
         case 'hamsterWheel':
             return 'Hamster Wheel';
         case 'dryCatFood':
-            return 'Dry Cat Food'
+            return 'Dry Cat Food';
+        case 'catChewToys':
+            return 'Cat Chew Toys'
     }
 }
 
@@ -54,6 +56,7 @@ window.onload = ()=>{
     itemsInCart.innerHTML = `<h1>In Your Cart</h1>`
 
     let itemsOnLocalStorage = localStorage.getItem('inCart');
+    console.log(itemsOnLocalStorage)
     
     if(itemsOnLocalStorage != null){
         console.log(itemsOnLocalStorage)
@@ -105,6 +108,8 @@ let dogChewToys = document.querySelector('#add-dog-chew-toys')
 let miceChewToys = document.querySelector('#add-mice-chew-toys')
 let hamsterWheel = document.querySelector('#add-hamster-wheel')
 let dryCatFood = document.querySelector('#add-dry-cat-food')
+let dogFood = document.querySelector('#add-dog-food')
+let catChewToys = document.querySelector('#add-cat-chew-toys')
 
 hamsterFood.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -121,6 +126,11 @@ dogChewToys.addEventListener('click', (e)=>{
     addToCart('dogChewToys', 'Dog Chew Toys')
 })
 
+miceChewToys.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('miceChewToys', 'Mice Chew Toys')
+})
+
 hamsterWheel.addEventListener('click', (e)=>{
     e.preventDefault();
     addToCart('hamsterWheel', 'Hamster Wheel')
@@ -129,4 +139,14 @@ hamsterWheel.addEventListener('click', (e)=>{
 dryCatFood.addEventListener('click', (e)=>{
     e.preventDefault();
     addToCart('dryCatFood', 'Dry Cat Food')
+})
+
+dogFood.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('dogFood', 'Dog Food')
+})
+
+catChewToys.addEventListener('click', (e)=>{
+    e.preventDefault();
+    addToCart('catChewToys', 'Cat Chew Toys')
 })
