@@ -62,3 +62,15 @@
     height: fit-content;
     
 }
+
+.product_description{
+    width: 55%;
+    float: left;
+    margin: 20px;
+    border: 1px solid blue;
+
+}
+.product_description h1{
+    margin: 20px;
+    width: max-content;
+}
