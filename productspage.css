@@ -13,11 +13,13 @@ li{
     justify-content: space-around;
     background-color:#f6dae4 ;
     padding: 40px;
+    font-size: large;
+    font-weight: 700;
 }
 #logo{
-    font-size: xx-large;
+    font-size:xx-large;
     font-weight: bolder;
-    font-style: italic;
+    font-family: 'Courgette';
 }
 .categories{
     display: flex;
@@ -103,6 +105,13 @@ a{
     width: auto;
     padding: 20px;
 }
+.span{
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
+    width: 170px;
+    background-color: #b8cfec;
+}
 .other{
     display: flex;
     justify-content: space-around;
@@ -159,4 +168,5 @@ footer {
     margin-top: 100px;
     height: 300px;
     background-color: #b8cfec;
+    font-family: sans-serif;
 }
