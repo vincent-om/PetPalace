@@ -6,13 +6,13 @@ let itemPrices = {
     'leash': 500,
     'toys': 500,
     'hamsterFood': 600,
-    'catFood': 850,
     'fishFlakes': 600,
     'dogFood': 1000,
     'dogChewToys': 500,
     'miceChewToys': 300,
     'catChewToys': 1200,
     'hamsterWheel': 1500,
+    'dryCatFood': 850
 };
 
 
@@ -54,6 +54,7 @@ window.onload = ()=>{
     itemsInCart.innerHTML = `<h1>In Your Cart</h1>`
 
     let itemsOnLocalStorage = localStorage.getItem('inCart');
+    console.log(itemsOnLocalStorage)
     
     if(itemsOnLocalStorage != null){
         console.log(itemsOnLocalStorage)
